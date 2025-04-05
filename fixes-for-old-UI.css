@@ -1,3 +1,13 @@
+/**
+    * @name Best theme for old UI
+    * @version 1
+    * @description Theme based on Amoled-cord and css-snippets from Vencord server
+    * @credits LuckFire for the 85% of the code
+    * @author kmmiio99o/LuckFire
+    * @source Vencord discord server
+    * @website https://github.com/kmmiio99o/Themes
+**/
+
 @import url('https://raw.githubusercontent.com/LuSaffi/VenCordstuff/refs/heads/main/CSS/%5BOLD_UI%5DcutoffFixes.css');
 :root {
   /* ignore these, unless you wanna mess with them, then go for it. they may be removed at any time, though. */
