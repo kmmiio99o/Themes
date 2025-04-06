@@ -4,3 +4,7 @@
 <br>In time changes to [fixes-for-old-Ui.css][def].</br>
 
 [def]: https://github.com/kmmiio99o/Themes/blob/main/fixes-for-old-UI.css
+<details>
+<summary>Amoled-cord</summary>
+![Logo Amoled-cord](icons/Amoled-cord.png)
+</details>

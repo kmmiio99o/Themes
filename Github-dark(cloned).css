@@ -469,3 +469,13 @@
 .option-96V44q:after {
     width: 0px;
 }
+
+div[class*='list_'][class*='auto_']{
+    position: absolute;
+    height: 100%;
+  }
+  
+  /* fix VC sizing */
+  .tileWrapper__6981d{
+    position: absolute;
+  }
