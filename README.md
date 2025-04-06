@@ -37,6 +37,6 @@
 <img src="icons/Spotify.png" width="1000" />
 </details>
 <details>
-<summary>Transparent (Must use Mica for everyone)</summary>
+<summary>Transparent (Must use Mica for everyone for better experience)</summary>
 <img src="icons/Transparent.png" width="1000" />
 </details>
