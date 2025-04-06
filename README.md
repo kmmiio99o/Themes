@@ -6,5 +6,5 @@
 [def]: https://github.com/kmmiio99o/Themes/blob/main/fixes-for-old-UI.css
 <details>
 <summary>Amoled-cord</summary>
-![Logo Amoled-cord](icons/Amoled-cord.png)
+<link rel="icon" href="icons/Amoled-cord.png" type="image/png">
 </details>
