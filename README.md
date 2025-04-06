@@ -37,7 +37,7 @@
 <img src="icons/Spotify.png" width="1000" />
 </details>
 <details>
-<summary>Transparent (Must use [Mica for everyone][def] for better experience)</summary>
+<summary>Transparent (Must use Mica for everyone[def] for better experience)</summary>
 <img src="icons/Transparent.png" width="1000" />
 
 [def]: https://github.com/MicaForEveryone/MicaForEveryone
