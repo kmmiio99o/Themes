@@ -38,6 +38,8 @@
 </details>
 <details>
 <summary>Transparent 'Must use Mica for everyone' for better experience)</summary>
-<br>https://github.com/MicaForEveryone/MicaForEveryone</br>
+<br>Link to [Mica for everyone][def].
+
+[def]: https://github.com/MicaForEveryone/MicaForEveryone</br>
 <img src="icons/Transparent.png" width="1000" />
 </details>
