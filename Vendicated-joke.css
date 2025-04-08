@@ -1,0 +1,15 @@
+:root::after {
+    content: "";
+    position: absolute;
+    z-index: 999999;
+    height: 20%;
+    aspect-ratio: 1/1;
+    background: url(https://media.discordapp.net/stickers/1217112512374505613.png) center / contain no-repeat;
+    offset: rect(auto auto auto auto round 10%) reverse / bottom;
+    animation: move 3s linear infinite;
+    pointer-events: none;
+}
+@keyframes move {
+    from { offset-distance: 0%; }
+    to { offset-distance: 100%; }
+}

@@ -1236,6 +1236,7 @@ div[class*='list_'][class*='auto_']{
 :is(.theme-dark, .theme-midnight) .sidebar_c48ade .panels_c48ade .container__37e49 {
   background-color: var(--background-primary);
 }
+
 /* Hide nameplates */
 [class*="plated"] [style^="background: linear-gradient("] { display: none; }
 
@@ -1253,25 +1254,6 @@ div[class*='list_'][class*='auto_']{
 /* AMOLEDCord fix */
 [class^="sidebar_"] header {
   background-color: transparent !important;
-}
-
-[class^=panels] > [class^=container] /* User area redesign */
-{
-    height: unset !important; /* Height being dynamic is fine */
-    align-items: unset !important; /* Don't need that */
-    padding: 6px 8px !important; /* Let those boxes breathe */
-    flex-direction: column-reverse !important; /* Instead of going one next to the other, go stacked */
-    gap: 2px !important; /* Again let them breathe */
-    > [class^=avatarWrapper] /* Change the user box */
-    {
-        margin-right: unset !important; /* Useless */
-        margin-left: unset !important; /* Useless */
-        padding-left: 4px !important; /* Make it slightly bigger for consistency with the right side */
-        + [class^=buttons] /* Change the quick settings */
-        {
-            justify-content: space-evenly !important; /* Let them breathe */
-        }
-    }
 }
 
 /* App launcher reposition */
@@ -1320,4 +1302,46 @@ div.side_a0 > div.item_a0[data-tab-id="Discord Nitro"] {
 }
 div.side_a0 > div.item_a0[data-tab-id="Nitro Server Boost"] {
   display: none !important;
+}
+
+/*discord loading page*/
+.container_e40c16.fixClipping_c7e9c6  {
+  background: 0 0;
+  backdrop-filter: blur(5px);
+}
+
+/* Spotify album image turntable */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#vc-spotify-album-image {
+  border-radius: 50%;
+  animation: spin 10s linear infinite;
+  animation-play-state: paused;
+}
+#vc-spotify-player:has(.vc-spotify-pause) #vc-spotify-album-image {
+  animation-play-state: running;
+}
+
+[class^=content]:has(> video[data-testid="app-spinner"]) {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    translate: 25%;
+    width: 200px;
+    height: 180px;
+    background-image: url('https://media.discordapp.net/stickers/1217112512374505613.png?size=320') !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  video { visibility: hidden; }
 }
