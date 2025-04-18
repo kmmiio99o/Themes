@@ -25,7 +25,8 @@
 <img src="icons/Midnight.png" width="1000" />
 </details>
 <details>
-<summary>fixes for old UI</summary>
+<summary>fixes for old UI(Closed)</summary>
+<br>It's not possible to use this theme, because discord gived fully refreash UI</br>
 <img src="icons/old-UI.png" width="1000" />
 </details>
 <details>
@@ -37,9 +38,8 @@
 <img src="icons/Spotify.png" width="1000" />
 </details>
 <details>
-<summary>Transparent 'Must use Mica for everyone' for better experience) BROKEN</summary>
+<summary>Transparent 'Must use Mica for everyone' for better experience)</summary>
 <br>Link to Mica for everyone: https://github.com/MicaForEveryone/MicaForEveryone.</br>
 <br>Theme in the background is my own on pc!</br>
-<br>THEME IS BROKEN</br>
 <img src="icons/Transparent.png" width="1000" />
 </details>
