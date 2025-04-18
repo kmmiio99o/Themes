@@ -4,6 +4,11 @@
 
 [def]: https://github.com/kmmiio99o/Themes/blob/main/fixes-for-old-UI.css
 <details>
+<summary>Better-UI (Good optimized)</summary>
+<br>Theme on discord I used is 'dark'</br>
+<img src="icons/Better-UI.png" width="1000" />
+</details>
+<details>
 <summary>Amoled cord</summary>
 <img src="icons/Amoled-cord.png" width="1000" />
 </details>

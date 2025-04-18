@@ -1,0 +1,216 @@
+/**
+    * @name Better UI
+    * @version 1.0.0
+    * @description Theme builded by quick-css from Vendicated server
+    * @credits Vendicated discord server
+    * @author kmmiio99o
+    * @source Vencord discord server
+    * @website https://github.com/kmmiio99o/Themes
+    * @invite EdbAEJzANF
+**/
+.visual-refresh [class^="panels_"] {
+    bottom: 0px;
+    left: 72px;
+    width: calc(100% - 72px);
+    border-radius: 0px;
+    background-color: var(--background-secondary);
+    >[class^="container_"] {
+        padding: 0px;
+        margin: 0 8px;
+        height: 57px;
+    }
+}
+
+.visual-refresh [class^="sidebar_"] > [class*="guilds_"] {
+    margin-bottom: 0px;
+}
+.visual-refresh nav:has([data-list-id="guildsnav"]) {
+  margin-bottom: unset;
+}
+@import url("https://nspc911.github.io/themes/vencord/BlurryBackdrop.theme.css");
+:root {
+  /* The blur radius, can be *\
+  \*   any types of length   */
+  --blrbg-blur-by: 2px;
+  /* how dim you want the bg *\
+  \*   aside from the blur   */
+  --blrbg-dimmness: 25;
+}
+.vc-membercount-member-list {
+  justify-content: space-between !important;
+  margin-top: 0 !important;
+  padding-inline: 0 !important;
+  background: var(--bg-overlay-4,var(--background-base-lowest));
+  border-bottom: 1.5px solid var(--border-subtle);
+  border-right: 1.5px solid var(--border-subtle);
+  margin-bottom: -16px !important;
+
+  .vc-membercount-online-dot, .vc-membercount-total-dot { margin: 0 !important; }
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 0;
+    
+    &::after {
+      display: inline;
+      font-size: 0.8em;
+      margin-top: 2px;
+    }
+    &:nth-child(1) { margin-left: 20px; }
+    &:nth-child(1)::after {
+      content: "online";
+      color: var(--color-online);
+    }
+    &:nth-child(3) { padding-right: 20px; }
+    &:nth-child(3)::after {
+      content: "total";
+      color: var(--color-total);
+    }
+  }
+}
+.visual-refresh {
+    --custom-channel-textarea-text-area-height: 56px;
+    .form_f75fb0 {
+        display: flex;
+        flex-direction: column;
+    }
+    .channelTextArea_f75fb0 {
+        margin-bottom: 8px;
+    }
+    .base_b88801 {
+        position: static;
+        order: -1;
+    }
+}
+.bar_c38106{
+    z-index: 28371983721897;
+}
+.title_c38106{
+    background-color: transparent;
+    background: linear-gradient(to bottom, var(--background-base-lowest), #00000000);
+}
+.title_a7d72e{
+    -webkit-app-region: drag;
+}
+
+.sidebar_c48ade{
+    overflow: visible !important;
+    position: relative;
+}
+
+.sidebarList_c48ade{
+    margin-left: 72px;
+}
+
+.wrapper_ef3116{
+    position: absolute;
+    top: -35px;
+    height: calc(100vh - 65px);
+    /* padding-top: 10px; */
+}
+
+[class^="stack_dbd263 scroller_ef3116"]{
+    padding-top: 40px !important;
+}
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) {
+  display: none;
+}
+.content_a2f514 {
+    display: flex;
+    flex-direction: column;
+    > .spinner_a2f514 { display: none }
+    &:before {
+        display: block;
+        height: 128px;
+        position: relative;
+        content: url(https://raw.githubusercontent.com/Vencord/Vesktop/refs/heads/main/static/shiggy.gif);
+        image-rendering: pixelated;
+         align-content: center;
+         scale: 3.125;
+         margin-bottom: 96px;
+    }
+}
+:root {
+    --list-item-transition: 0.2s ease;
+}
+.wrapper__2ea32 .link__2ea32 {
+    transition: margin-left var(--list-item-transition);
+}
+.wrapper__2ea32:hover .link__2ea32 {
+    margin-left: 10px;
+}
+.unread__2ea32 {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    transition: var(--list-item-transition);
+}
+.wrapper__2ea32:hover .unread__2ea32 {
+    width: 12px;
+    height: 12px;
+    margin-top: -6px;
+    margin-left: 3px;
+    background-color: transparent;
+    background: url('https://cdn.discordapp.com/emojis/1026533070955872337.webp?size=48');
+    background-size: 12px;
+    background-position: center;
+}
+/* round messages on hovering, replies, and mentions */
+:root {
+  --round-messages-radius: 8px;
+}
+[class*=cozyMessage] {
+    margin-left: 4px;
+    border-radius: var(--round-messages-radius);
+}
+[class*=cozyMessage]:before {
+  width: 4px;
+  height: calc(100% - 1.5*var(--round-messages-radius));
+  align-self: center;
+  border-radius: 2px;
+  margin-left: calc(0.5*var(--round-messages-radius));
+}
+/* Spotify album image turntable */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#vc-spotify-album-image {
+  border-radius: 50%;
+  animation: spin 10s linear infinite;
+  animation-play-state: paused;
+}
+#vc-spotify-player:has(.vc-spotify-pause) #vc-spotify-album-image {
+  animation-play-state: running;
+}
+:root {
+    /* do you want to see your quests/billing/nitro settings? */
+    /* yes, I want to see it -> --billing: block !important; */
+    /* no, hide it -> --billing: none; */
+    --billing: none;
+    /* do you want to see server boosting/server shop upsell? */
+    /* yes, I want to see it -> --boosting: block !important; */
+    /* no, hide it -> --boosting: none; */
+    --boosting: none;
+}
+/* Hide nameplates */
+[class*="plated"] [style^="background: linear-gradient("] { display: none; }
+/*     Visible Server Banner     */
+[class^="container_"]:not([class*="bannerVisible_"]) >
+[class^="animatedContainer_"] {
+  top: 3px;
+}
+[class*="animatedContainer_"] {
+  opacity: 1 !important;
+}
+[class*="headerContent_"] {
+  filter: drop-shadow(0 1px 1px var(--bg-backdrop));
+}
