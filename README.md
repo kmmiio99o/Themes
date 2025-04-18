@@ -31,7 +31,7 @@ I CANT SAID THEY ARE GOING TO WORK 100% FINE
 <img src="icons/Midnight.png" width="1000" />
 </details>
 <details>
-<summary>fixes for old UI(Closed)</summary>
+<summary>fixes for old UI (Closed)</summary>
 <br>It's not possible to use this theme, because discord gived fully refreash UI</br>
 <img src="icons/old-UI.png" width="1000" />
 </details>
