@@ -1,0 +1,456 @@
+  /**
+    * @name Compact Cord
+    * @version 1.0.0
+    * @description Theme builded by quick-css from Vendicated server
+    * @credits Vendicated discord server
+    * @author kmmiio99o.dev
+    * @source Vencord discord server
+    * @website https://github.com/kmmiio99o/Themes
+    * @invite U2ABZBBPaH
+**/
+:root {
+  --codeblock-height: 200px;
+}
+.codeContainer__75297 > code {
+  max-height: var(--codeblock-height);
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+    &::-webkit-scrollbar-track, &::-webkit-scrollbar-thumb {
+    /* visibility: hidden; */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    background-color: var(--scrollbar-thin-thumb);
+    border: 2px solid transparent;
+    border-radius: 4px;
+    min-height: 40px;
+  }
+  &:hover::-webkit-scrollbar-track, &:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-thin-track);
+    border: 2px solid var(--scrollbar-thin-track);
+    border-color: var(--scrollbar-thin-track);
+  }
+}
+.member__5d473 {
+    height: 32px!important;
+    padding: var(--space-xxs) var(--space-xs);
+    margin: calc(var(--space-xxs) / 2) var(--space-xxs);
+        &:hover {
+        background: var(--bg-overlay-hover, var(--background-modifier-hover));
+    }
+}
+
+.memberInner__5d473, .childContainer__91a9d {
+    padding: 0px!important;
+    display: flex!important;
+    align-items: center!important;
+    align-content: center!important;
+    max-width: 100%;
+}
+
+.avatar__91a9d {
+    scale: 0.75;
+    margin-right: 4px;
+}
+
+.content__91a9d {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+
+.memberInner__5d473 {
+    position: absolute;
+    top: calc(0px - var(--space-xxs) / 3);
+    left: var(--space-xxs);
+    max-width: calc(100% - var(--space-sm));
+
+}
+
+.membersGroup_c8ffbb {
+    padding: var(--space-xs) var(--space-xxs) var(--space-xs) var(--space-sm)!important;
+}
+.panels_c48ade {
+  position: fixed;
+  left: 12px !important;
+  top: calc(0px - var(--custom-app-top-bar-height)) !important;
+  bottom: auto !important;
+  background: transparent !important;
+  border: none !important;
+  -webkit-app-region: no-drag;
+
+  .avatar__37e49 {
+    scale: 0.6;
+  }
+
+  .container__37e49 {
+    padding: 0px;
+    min-height: 0px !important;
+  }
+
+  .nameTag__37e49 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .avatarWrapper__37e49 {
+    padding: 0px;
+    height: auto !important;
+  }
+
+  .wrapper_e131a9 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: var(--custom-guild-sidebar-width);
+
+    .container_e131a9 {
+      background-color: var(--bg-base-tertiary);
+    }
+  }
+}
+
+.sidebar_c48ade {
+  overflow: visible;
+}
+
+.guilds_c48ade {
+  margin-bottom: 0px !important;
+}
+
+.container__2637a {
+  padding-bottom: 0px !important;
+}
+
+.sidebar_c48ade:has(.container_e131a9) {
+  .guilds_c48ade {
+    margin-bottom: 100px !important;
+  }
+
+  .container__2637a {
+    padding-bottom: 100px !important;
+  }
+}
+form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
+    width: var(--modal-width-medium);
+
+    .header__49fc1 {
+        padding: var(--modal-vertical-padding) var(--modal-horizontal-padding);
+        margin-bottom: var(--modal-vertical-padding);
+        border-bottom: var(--border-normal) solid 1px;
+
+        .colorHeaderPrimary_c9946a {
+            text-align: center;
+            font-weight: var(--font-weight-semibold);
+            flex-grow: 1;
+        }
+
+        .closeButton_e858dd {
+            top: unset;
+            right: var(--modal-horizontal-padding);
+            margin-bottom: auto;
+            margin-top: auto;
+
+            .contents__201d5 {
+                height: 24px;
+            }
+        }
+    }
+
+    .submissionWarning_e858dd {
+        display: none;
+    }
+
+    .formItem__1b11b .eyebrow_b717a1 {
+        margin-bottom: 4px;
+
+        .errorMessage_b717a1 {
+            color: var(--text-danger);
+        }
+    }
+
+    .input__0f084.error__0f084:focus {
+        color: var(--text-normal);
+        transition-property0: border-color, color;
+    }
+
+    .footer__49fc1 {
+        justify-content: space-between;
+    }
+}
+form > div.focusLock__49fc1 > div.rootWithShadow__49fc1 {
+    background-color: color-mix(in srgb, transparent 50%, var(--modal-background));
+    .horizontalReverse__7c0ba {
+        background-color: color-mix(in srgb, transparent 50%, var(--modal-footer-background))
+    }
+    .input__0f084 {
+        background-color: color-mix(in srgb, transparent 50%, var(--input-background));
+    }
+}
+/* originally in https://github.com/blade04208/ddex4 */
+.biteSize_c0bea0 {
+  overflow: visible !important;
+
+  .footer__5be3e {
+    display: none !important;
+  }
+
+  .descriptionClamp_f5f93a {
+    -webkit-line-clamp: 2;
+  }
+
+  rect[mask^="url(#svg-mask-status"] {
+    display: block;
+
+  }
+
+  .container_ab8609 {
+    left: -20px !important;
+    top: -45px;
+
+    .outer_ab8609::before {
+      top: 42px;
+      left: 10px;
+    }
+
+    .outer_ab8609::after {
+      top: 70px;
+      left: 20px;
+    }
+  }
+
+  .usernameRow__63ed3 {
+    position: absolute;
+    top: -60px;
+    left: 109px;
+  }
+
+  .nickname__63ed3 {
+    word-wrap: normal;
+    max-height: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+  }
+
+  .tags__63ed3 .clickableUsername__63ed3 {
+    position: absolute;
+    top: -36px;
+    left: 110px;
+  }
+
+  .container__8061a {
+    position: absolute;
+    top: -60px;
+    right: 12px;
+    max-width: 90px;
+    width: 24px;
+    flex-direction: row-reverse;
+    height: 22px;
+    overflow: hidden;
+    transition: height 1s;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+
+    &:hover {
+      height: auto;
+      width: auto;
+    }
+  }
+
+  .mutuals__530ce {
+    position: absolute;
+    top: 8px;
+    margin-left: calc(100% - 44px - 32px);
+
+    .text__530ce,
+    .spacer__530ce {
+      display: none;
+    }
+
+    .avatars_ef4a91 {
+      width: 44px !important;
+      justify-content: right;
+    }
+  }
+
+  .contents__201d5:not(.buttonInner_fb7f94) {
+    display: none;
+  }
+
+  .header__5be3e {
+    min-height: 0px;
+    height: 105px !important;
+
+  }
+
+  .dotSpacer__63ed3 {
+    display: none;
+  }
+
+  [mask^="url(#uid_"] {
+    /* display: none; */
+    mask: none;
+    opacity: 0.5;
+    overflow: hidden;
+    height: 100%;
+
+  }
+
+  .avatar__75742 {
+    top: 12px !important;
+  }
+
+  .body__5be3e {
+    padding-top: 8px !important;
+    overflow: visible!important;
+  }
+
+
+  .mask__68edb,
+  .banner__68edb {
+    overflow: visible;
+    height: 00% !important;
+    width: 100% !important;
+    contain: none !important;
+    min-height: 100% !important;
+    border-radius: 9px 9px 0 0;
+  }
+}
+@import url("https://ukriu.github.io/cssCord/Other/blandProfile.css");
+@import url("https://ukriu.github.io/cssCord/Other/noSuperReactions.css");
+
+[class*="marketingButtonBackground"],
+[class*="newBadge_"],
+[class*="premiumTab"],
+[class*="premiumBadge"],
+[class*="premiumFeatureBorder"],
+div[class*="selectionGroup"]:has(div[class*="tryItOutButtons"] > button[class*="shinyButton_"]),
+[class*="upsell"],
+li[role="listitem"]:has(a[href="/store"]),
+li[role="listitem"]:has(a[href="/shop"])
+{display: none;}
+
+/* quest banner in gift inv */
+.container_c50183:has(.textContainer_c50183 > .headerContainer_c50183 > img[src="/assets/7749189229f35e2f.png"]) {
+    display: none;
+}
+
+/* newly added emojis in emoji picker */
+[class*="newlyAddedBadge_"] {display: none;}
+[class*="newlyAddedHighlight_"] {
+    border: unset !important;
+}
+
+/* shop upsell in profile editor in settings */
+div[style*="https://cdn.discordapp.com/assets/content/5d02fdeea"]  {
+    display: none;
+}
+
+/* quest icon when a user is actively doing a quest in the member list */
+div[class*="subText"] > div > svg[class*="questsIcon"] {
+    display: none;
+}
+.avatarPopover__2d0a, .statusPopover__2d0ab, .activityPopover__2d0ab{display:none;}
+.quickswitcher_ac6cb0 {
+  background: 0 0 !important;
+  padding: 10px;
+  background-color: transparent !important;
+  backdrop-filter: blur(20px);
+  > * {
+    background: inherit !important;
+    background-color: inherit !important;
+  }
+  .scroller_ac6cb0 {
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    scrollbar-width: none;
+    padding: 4px !important;
+  }
+  .input_ac6cb0 { height: 50px }
+  .input_ac6cb0[value=""] { border-radius: 8px }
+  .input_ac6cb0:not([value=""]) { border-radius: 8px 8px 0 0 }
+  .protip_ac6cb0 { display: none }
+  .result__71961 { border-radius: 8px }
+  .content__99f8c > div:not(.result__71961):not([aria-hidden=true]) > .content__71961 {
+    height: 20px;
+    line-height: 20px;
+    > .header__71961 {
+      line-height: 20px;
+      margin-top: 0;
+      margin-bottom: 4px;
+    }
+  }
+}
+.backdrop__1a911:has(+ .layer_bc663c .quickswitcher_ac6cb0) { opacity: 0 }
+.vc-membercount-member-list {
+  justify-content: space-between !important;
+  margin-top: 0 !important;
+  padding-inline: 0 !important;
+  background: var(--bg-overlay-4,var(--background-base-lowest));
+  border-bottom: 1.5px solid var(--border-subtle);
+  border-right: 1.5px solid var(--border-subtle);
+  margin-bottom: -16px !important;
+
+  .vc-membercount-online-dot, .vc-membercount-total-dot { margin: 0 !important; }
+
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 0;
+    
+    &::after {
+      display: inline;
+      font-size: 0.8em;
+      margin-top: 2px;
+    }
+    &:nth-child(1) { margin-left: 20px; }
+    &:nth-child(1)::after {
+      content: "online";
+      color: var(--color-online);
+    }
+    &:nth-child(3) { padding-right: 20px; }
+    &:nth-child(3)::after {
+      content: "total";
+      color: var(--color-total);
+    }
+  }
+}
+[class*='base_'] > [class*='content_'] {
+    margin: 0 10px 10px 0;
+
+    [class*='page_'] {
+        border: 1px solid var(--app-border-frame);
+        border-left: none;
+        border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    }
+
+    [class*='sidebar_'] {
+        &::after {
+            display: none;
+        }
+
+        [class*='sidebarList_'] {
+            border-bottom: 1px solid var(--app-border-frame);
+            border-bottom-left-radius: var(--radius-md);
+        }
+    }
+
+    [class*='chat_'], [class*='callContainer_cb9592'] {
+        border: none !important;
+    }
+}

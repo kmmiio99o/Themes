@@ -15,6 +15,10 @@ I CANT SAID THEY ARE GOING TO WORK 100% FINE
 <img src="icons/Amoled-cord.png" width="1000" />
 </details>
 <details>
+<summary>Compact Cord</summary>
+<img src="icons/Compact-Cord.png" width="1000" />
+</details>
+<details>
 <summary>Clear vision</summary>
 <img src="icons/Clear-vision.jpg" width="1000" />
 </details>

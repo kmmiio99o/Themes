@@ -3,7 +3,7 @@
     * @version 1.0.0
     * @description Theme builded by quick-css from Vendicated server
     * @credits Vendicated discord server
-    * @author kmmiio99o
+    * @author kmmiio99o.dev
     * @source Vencord discord server
     * @website https://github.com/kmmiio99o/Themes
     * @invite U2ABZBBPaH
@@ -27,15 +27,7 @@
 .visual-refresh nav:has([data-list-id="guildsnav"]) {
   margin-bottom: unset;
 }
-@import url("https://nspc911.github.io/themes/vencord/BlurryBackdrop.theme.css");
-:root {
-  /* The blur radius, can be *\
-  \*   any types of length   */
-  --blrbg-blur-by: 2px;
-  /* how dim you want the bg *\
-  \*   aside from the blur   */
-  --blrbg-dimmness: 25;
-}
+
 .vc-membercount-member-list {
   justify-content: space-between !important;
   margin-top: 0 !important;
