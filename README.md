@@ -17,9 +17,9 @@ I CAN'T SAID THEY ARE GOING TO WORK 100% FINE.
 <details>
 <summary>Compact Cord</summary>
 Nothing can be perfect, so this theme is bugged with:
-- Spotify control
-- Spotify lirycs
-Plugins
+<br>- Spotify control
+<br>- Spotify lirycs
+<br>Plugins
 <img src="icons/Compact-Cord.png" width="1000" />
 </details>
 <details>
