@@ -1,3 +1,4 @@
+# Project Discontinued, I'm no longer gonna provide updates for this repository, due to discord always updates the UI, so I must just watch every week new updates on themes...
 # BetterDiscord/Vencord Themes
 
 Welcome to the repository of themes for BetterDiscord and Vencord! Each theme includes credits and is available for everyone to use. Below, you'll find a list of available themes along with their descriptions and screenshots.
